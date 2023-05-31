@@ -1,0 +1,144 @@
+:root{
+  background-color:#98bcb4;
+  --orange:#f0843c;
+  --yellow:#f9f2d3;
+  --darkgreen:#267d6c;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows:300px 5px 1fr 1fr;
+background-color: ;
+width: 100vw;
+height: 100vh;
+}
+
+.item-1{
+grid-column:1 / span 2;
+grid-row:1;
+height:300px ;
+border: 
+}
+
+.title{
+display: flex;
+align-items: baseline;
+margin-top: -80px;
+margin-left: 50px ;
+}
+#good-day{
+font-style: italic;
+  color: var(--darkgreen);
+  font-weight: 1000;
+  font-family: arial;
+  font-size: 150px;
+  padding: 0px;
+  margin-left:10px ;
+
+}
+.item-2{
+grid-column:3 / span 4;
+grid-row:1;
+height:300px ;
+}
+
+.nav{
+display: flex;
+background-color: var(--yellow);
+width:600px;
+height:150px;
+border-radius:150px;
+justify-content: space-between;
+align-items:center;
+padding: 30px;
+padding-left: 75px;
+padding-right: 75px;
+margin: 20px 0px 0px 400px;
+}
+
+.ruler{
+grid-column:1 / span 4;
+grid-row:2  ;
+width: 100vw;
+
+}
+.rule{
+border: 5px solid var(--darkgreen);
+border-radius: 5px;
+margin-top: -10px;
+}
+
+.item-3{
+grid-column:1;
+grid-row:3;
+}
+#pic1{
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 4px dashed var(--darkgreen);
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+
+}
+.item-4{
+grid-column:2;
+grid-row:3;
+}
+
+.photo-title{
+background-color: var(--yellow);
+width:350px;
+height:50px;
+margin: auto;
+margin-top: 10px; 
+padding: 10px;
+padding-top:10px;
+text-align: center;
+border-radius: 150px;
+font-weight: bold;
+color: var(--orange); 
+font-family:arial ;
+font-size: 50px;
+font-style: italic;
+}
+.description{
+padding: 40px 80px 0 80px;
+text-align: justify;
+margin: auto;
+font-size: 30px;
+font-family: arial;
+color: black;
+font-family: 'Raleway', sans-serif;
+}
+.item-5{
+grid-column:3;
+grid-row:3;
+}
+.item-6{
+grid-column:4;
+grid-row:3;
+font-family: 'Raleway', sans-serif;
+}
+.item-7{
+grid-column:1;
+grid-row:4; 
+}
+.item-8{
+grid-column:2;
+  grid-row:4; 
+  font-family: 'Raleway', sans-serif;
+}
+.item-9{
+grid-column:3;
+  grid-row:4; 
+}
+.item-10{
+  grid-column:4;
+  grid-row:4; 
+  font-family: 'Raleway', sans-serif;
+}
